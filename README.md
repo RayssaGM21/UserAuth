@@ -41,7 +41,7 @@ Criar uma aplicação funcional de autenticação de usuários utilizando:
 | **Reset de senha** | Nova senha válida via modal | Senha atualizada |
 | **E-mail duplicado** | Cadastro com email existente | "E-mail já está em uso" |
 
-![Testes](./docs/evidencias/evidencia.mp4)
+![Testes](./docs/evidencias/evidencia_gif.gif)
 
 ---
 
