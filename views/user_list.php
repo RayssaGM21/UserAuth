@@ -53,8 +53,8 @@ require __DIR__ . '/partials/flash_message.php';
                 name="new_password"
                 id="new_password"
                 required
+                minlength="8"
                 class="w-full px-4 py-2 border border-gray-300 rounded mb-4 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
-
             <div class="flex justify-end space-x-3 mt-4">
                 <button type="button" onclick="closeResetModal()" class="px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded">Cancelar</button>
                 <button type="submit" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded">Salvar</button>
