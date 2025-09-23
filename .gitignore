@@ -1,0 +1,37 @@
+# Ignorar arquivos e pastas do Composer
+/vendor/
+
+# Ignorar arquivos do PHP
+*.log
+*.swp
+*.bak
+*.tmp
+
+# Ignorar arquivos do banco de dados SQLite
+*database.sqlite
+
+# Ignorar arquivos temporários do editor
+.vscode/
+.idea/
+
+# Ignorar arquivos de configuração do sistema
+*.env
+*.env.local
+
+# Ignorar diretórios e arquivos gerados pela IDE
+*.iml
+*.DS_Store
+Thumbs.db
+
+# Ignorar cache do Composer
+/composer.lock
+
+# Ignorar pasta de builds, uploads ou cache (se houver)
+build/
+uploads/
+cache/
+
+# Ignorar arquivos de backup do sistema
+*.bak
+*.backup
+*.orig
