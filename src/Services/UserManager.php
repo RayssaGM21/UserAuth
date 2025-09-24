@@ -16,7 +16,7 @@ use PDO;
  */
 class UserManager
 {
-    private PDO $db;
+    private readonly PDO $db;
 
     public function __construct()
     {
