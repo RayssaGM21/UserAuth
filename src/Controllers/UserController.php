@@ -53,7 +53,7 @@ class UserController
 
             if ($result['success']) {
                 $_SESSION['user_email'] = $email;
-                $_SESSION['flash_message'] = 'Login realizado com sucesso!';
+                $_SESSION['flash_message'] = $result['message'];
                 $_SESSION['flash_type'] = 'success';
 
                 header('Location: index.php?action=users');
